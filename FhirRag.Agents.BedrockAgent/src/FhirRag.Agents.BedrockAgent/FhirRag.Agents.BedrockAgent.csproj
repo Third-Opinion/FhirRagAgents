@@ -13,5 +13,12 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="2.5.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.4.4" />
+    <PackageReference Include="FhirRag.Core" Version="1.0.0-*" />
+    <PackageReference Include="FhirRag.Core.Abstractions" Version="1.0.0-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../FhirRag.Agents.Models/FhirRag.Agents.Models.csproj" />
+    <ProjectReference Include="../../FhirRag.Agents.Enrichment/FhirRag.Agents.Enrichment.csproj" />
   </ItemGroup>
 </Project>
