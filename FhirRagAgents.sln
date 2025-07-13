@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FhirRag.Agents.BedrockAgent", "FhirRag.Agents.BedrockAgent\src\FhirRag.Agents.BedrockAgent\FhirRag.Agents.BedrockAgent.csproj", "{5198E683-9BB5-4D11-AD21-E81B4B1DD0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FhirRag.Agents.BedrockAgent.Tests", "FhirRag.Agents.BedrockAgent\test\FhirRag.Agents.BedrockAgent.Tests\FhirRag.Agents.BedrockAgent.Tests.csproj", "{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FhirRag.Agents.Enrichment", "FhirRag.Agents.Enrichment\FhirRag.Agents.Enrichment.csproj", "{F7F1BD09-9575-4E1A-B2A6-8663DA475FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FhirRag.Agents.Models", "FhirRag.Agents.Models\FhirRag.Agents.Models.csproj", "{D4B15A7D-A202-4AB3-80CF-BD02F11F54F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FhirRag.Agents.Tests", "FhirRag.Agents.Tests\FhirRag.Agents.Tests.csproj", "{D77FA2A5-7AF6-4923-8185-CE06823BB07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5198E683-9BB5-4D11-AD21-E81B4B1DD0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5198E683-9BB5-4D11-AD21-E81B4B1DD0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5198E683-9BB5-4D11-AD21-E81B4B1DD0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5198E683-9BB5-4D11-AD21-E81B4B1DD0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F1BD09-9575-4E1A-B2A6-8663DA475FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F1BD09-9575-4E1A-B2A6-8663DA475FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F1BD09-9575-4E1A-B2A6-8663DA475FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F1BD09-9575-4E1A-B2A6-8663DA475FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B15A7D-A202-4AB3-80CF-BD02F11F54F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B15A7D-A202-4AB3-80CF-BD02F11F54F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B15A7D-A202-4AB3-80CF-BD02F11F54F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B15A7D-A202-4AB3-80CF-BD02F11F54F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77FA2A5-7AF6-4923-8185-CE06823BB07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77FA2A5-7AF6-4923-8185-CE06823BB07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77FA2A5-7AF6-4923-8185-CE06823BB07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77FA2A5-7AF6-4923-8185-CE06823BB07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
